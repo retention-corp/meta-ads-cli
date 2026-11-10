@@ -1,0 +1,44 @@
+=== morning_signal Fri May  1 11:07:29 KST 2026 ===
+
+[slack:stdout #ads-morning-brief]
+*Morning Signal Brief — Growth Practitioner*
+_baseline: 2026-04-01 → 2026-04-30 (30d, mean $41.92/day)_
+
+:white_check_mark: *audience_age_leakage* — 18-24 spend share 3.5% within range (baseline 3.9%).
+:white_check_mark: *placement_concentration* — Instagram spend share 90.7% within range (87-99%).
+:white_check_mark: *daily_spend_anomaly* — Yesterday spend $51.94 (z=+0.68σ) within $4.85-$78.99.
+
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/morning_signal.json
+=== done Fri May  1 11:07:31 KST 2026 ===
+=== morning_signal Fri May  1 11:42:48 KST 2026 ===
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/morning_signal.json
+=== done Fri May  1 11:42:50 KST 2026 ===
+=== 아침 시그널 헬스 체크 Fri May  1 11:51:37 KST 2026 ===
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/morning_signal.json
+=== 완료 Fri May  1 11:51:40 KST 2026 ===
+=== 아침 시그널 헬스 체크 Fri May  1 12:32:57 KST 2026 ===
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/morning_signal.json
+=== 완료 Fri May  1 12:33:00 KST 2026 ===
+=== 아침 시그널 헬스 체크 Fri May  1 13:27:37 KST 2026 ===
+Traceback (most recent call last):
+  File "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/lib/signal_quality.py", line 204, in <module>
+    alerts = run_all()
+  File "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/lib/signal_quality.py", line 176, in run_all
+    check_placement_granularity(),
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/lib/signal_quality.py", line 70, in check_placement_granularity
+    rows = cli.insights(
+        date_preset="yesterday",
+        breakdown="platform_position",
+        fields=["spend", "impressions"],
+    )
+  File "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/lib/cli.py", line 79, in insights
+    payload = json_call(*args)
+  File "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/lib/cli.py", line 40, in json_call
+    out = _run(["--output", "json", *args], timeout=timeout)
+  File "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/lib/cli.py", line 34, in _run
+    raise CliError(f"meta {' '.join(args)} failed (exit {proc.returncode}): {proc.stderr.strip()}")
+cli.CliError: meta --output json ads insights get --date-preset yesterday --breakdown platform_position --fields spend,impressions -l 500 failed (exit 4): Error: API error (100): (#100) Current combination of data breakdown columns (action_type, platform_position) is invalid
+=== 아침 시그널 헬스 체크 Fri May  1 13:28:40 KST 2026 ===
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/morning_signal.json
+=== 완료 Fri May  1 13:28:43 KST 2026 ===

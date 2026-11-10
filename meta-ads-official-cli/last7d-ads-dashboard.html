@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Ad Performance · Last 7 Days · Growth Practitioner</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#0b0d10;--panel:#14181d;--border:#222831;--text:#e6e9ef;--muted:#7c8694;--dim:#5a6472;--accent:#4f8cff;--pos:#22c55e;--neg:#ef4444;--warn:#f59e0b}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",sans-serif;padding:24px}
+.mono{font-family:"SF Mono",Menlo,Consolas,monospace}
+header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:24px;border-bottom:1px solid var(--border);padding-bottom:16px;flex-wrap:wrap;gap:12px}
+h1{font-size:22px;font-weight:600;letter-spacing:-0.01em}
+h2{font-size:15px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;margin:20px 0 10px}
+.sub{color:var(--muted);font-size:13px;margin-top:4px}
+.badge{background:var(--panel);border:1px solid var(--border);padding:6px 10px;border-radius:6px;font-size:12px;color:var(--muted)}
+.badge-pos{display:inline-block;background:rgba(34,197,94,0.15);color:#22c55e;font-size:9px;padding:1px 6px;border-radius:3px;margin-left:6px;letter-spacing:0.04em;font-weight:600;vertical-align:1px}
+.badge-mute{display:inline-block;background:rgba(124,134,148,0.12);color:var(--muted);font-size:9px;padding:1px 6px;border-radius:3px;margin-left:6px;letter-spacing:0.04em;font-weight:600;vertical-align:1px}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:24px}
+.kpi{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:14px 16px}
+.kpi .label{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px}
+.kpi .value{font-size:22px;font-weight:600;letter-spacing:-0.01em}
+.kpi .sub{font-size:12px;color:var(--muted);margin-top:2px}
+.charts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.chart-card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:16px;height:280px}
+.chart-card h3{font-size:13px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:12px}
+.table-wrap{background:var(--panel);border:1px solid var(--border);border-radius:10px;overflow:auto;margin-bottom:20px}
+table{width:100%;border-collapse:collapse;min-width:1100px}
+th{background:#0f1318;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:0.06em;font-weight:600;padding:12px 10px;text-align:right;border-bottom:1px solid var(--border);position:sticky;top:0}
+th:first-child{text-align:left}
+td{padding:12px 10px;border-bottom:1px solid var(--border);font-size:13px;vertical-align:top}
+td:first-child{padding-left:16px}
+td:last-child{padding-right:16px}
+tr:last-child td{border-bottom:none}
+tr:hover{background:rgba(79,140,255,0.05)}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.ad-name{font-weight:500;line-height:1.3;max-width:340px;word-break:break-word}
+.meta{color:var(--muted);font-size:11px;margin-top:2px}
+.dim{color:var(--dim)}
+.strong{font-weight:600}
+.pos{color:var(--pos)}
+.neg{color:var(--neg)}
+.warn{color:var(--warn)}
+footer{margin-top:24px;color:var(--muted);font-size:11px;text-align:center}
+@media (max-width:900px){.charts{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Ad Performance · Last 7 Days</h1>
+    <div class="sub">Account: act_250561826369987 · Growth Practitioner · 2026-04-24 → 2026-04-30</div>
+  </div>
+  <div class="badge">via meta-ads CLI v1.0.1 · 2026-05-01 00:59</div>
+</header>
+
+<div class="kpi-grid">
+  <div class="kpi"><div class="label">Spend</div><div class="value">$350.43</div><div class="sub">7-day total</div></div>
+  <div class="kpi"><div class="label">Impressions</div><div class="value">39,786</div><div class="sub">Reach: 33,741</div></div>
+  <div class="kpi"><div class="label">Clicks</div><div class="value">1,809</div><div class="sub">CTR 4.55%</div></div>
+  <div class="kpi"><div class="label">CPC</div><div class="value">$0.19</div><div class="sub">CPM $8.81</div></div>
+  <div class="kpi"><div class="label">Landing Page</div><div class="value">1,734</div><div class="sub">LPV</div></div>
+  <div class="kpi"><div class="label">Add to Cart</div><div class="value">444</div><div class="sub">IC: 78</div></div>
+  <div class="kpi"><div class="label">Purchases</div><div class="value">11</div><div class="sub">CPA $31.86</div></div>
+  <div class="kpi"><div class="label">Revenue</div><div class="value">$1,858.39</div><div class="sub">USD</div></div>
+  <div class="kpi"><div class="label">ROAS</div><div class="value pos">5.30x</div><div class="sub">Revenue / Spend</div></div>
+</div>
+
+<div class="charts">
+  <div class="chart-card"><h3>Daily Spend & Revenue</h3><canvas id="c1"></canvas></div>
+  <div class="chart-card"><h3>Daily Impressions, Clicks, Purchases</h3><canvas id="c2"></canvas></div>
+</div>
+
+<h2>By Campaign</h2>
+<div class="table-wrap"><table>
+  <thead><tr>
+    <th>Campaign</th><th>Spend</th><th>Imp</th><th>Clicks</th><th>CTR</th><th>CPC</th>
+    <th>Purchases</th><th>CPA</th><th>Revenue</th><th>ROAS</th>
+  </tr></thead>
+  <tbody><tr>
+    <td class="text-left"><div class="ad-name">120240782421500025</div><div class="meta dim"> · 7 ads</div></td>
+    <td class="num strong">$350.43</td>
+    <td class="num">39,786</td>
+    <td class="num">1,809</td>
+    <td class="num">4.55%</td>
+    <td class="num">$0.19</td>
+    <td class="num">11</td>
+    <td class="num">$31.86</td>
+    <td class="num">$1,858.39</td>
+    <td class="num strong pos">5.30x</td>
+  </tr></tbody>
+</table></div>
+
+<h2>By Ad (7 active)</h2>
+<div class="table-wrap"><table>
+  <thead><tr>
+    <th>Ad</th><th>Spend</th><th>Impr</th><th>Clicks</th><th>CTR</th><th>CPC</th><th>CPM</th><th>Freq</th>
+    <th>LPV</th><th>ATC</th><th>IC</th><th>Purch</th><th>CPA</th><th>Revenue</th><th>ROAS</th>
+  </tr></thead>
+  <tbody>
+  <tr>
+    <td class="text-left">
+      <div class="ad-name">jinny-capcut-260420 <span class="badge-mute">PAUSED</span></div>
+      <div class="meta"> <span class="dim">·</span> </div>
+      <div class="meta mono dim">ad 120242496252760025</div>
+    </td>
+    <td class="num strong">$163.69</td>
+    <td class="num">21,389</td>
+    <td class="num">846</td>
+    <td class="num">3.96%</td>
+    <td class="num">$0.19</td>
+    <td class="num">$7.65</td>
+    <td class="num">1.21</td>
+    <td class="num">945</td>
+    <td class="num">189</td>
+    <td class="num">29</td>
+    <td class="num strong">4</td>
+    <td class="num">$40.92</td>
+    <td class="num">$675.64</td>
+    <td class="num strong pos">4.13x</td>
+  </tr>
+
+  <tr>
+    <td class="text-left">
+      <div class="ad-name">ad_postit_winner_260427 <span class="badge-pos">ACTIVE</span></div>
+      <div class="meta"> <span class="dim">·</span> </div>
+      <div class="meta mono dim">ad 120242939578390025</div>
+    </td>
+    <td class="num strong">$110.35</td>
+    <td class="num">11,177</td>
+    <td class="num">578</td>
+    <td class="num">5.17%</td>
+    <td class="num">$0.19</td>
+    <td class="num">$9.87</td>
+    <td class="num">1.16</td>
+    <td class="num">461</td>
+    <td class="num">150</td>
+    <td class="num">25</td>
+    <td class="num strong">2</td>
+    <td class="num">$55.18</td>
+    <td class="num">$338.46</td>
+    <td class="num strong pos">3.07x</td>
+  </tr>
+
+  <tr>
+    <td class="text-left">
+      <div class="ad-name">New Sales Ad <span class="badge-pos">ACTIVE</span></div>
+      <div class="meta"> <span class="dim">·</span> </div>
+      <div class="meta mono dim">ad 120240782421510025</div>
+    </td>
+    <td class="num strong">$73.37</td>
+    <td class="num">7,026</td>
+    <td class="num">374</td>
+    <td class="num">5.32%</td>
+    <td class="num">$0.20</td>
+    <td class="num">$10.44</td>
+    <td class="num">1.11</td>
+    <td class="num">320</td>
+    <td class="num">103</td>
+    <td class="num">24</td>
+    <td class="num strong">5</td>
+    <td class="num">$14.67</td>
+    <td class="num">$844.29</td>
+    <td class="num strong pos">11.51x</td>
+  </tr>
+
+  <tr>
+    <td class="text-left">
+      <div class="ad-name">jinny-capcut_male50s-260420 <span class="badge-pos">ACTIVE</span></div>
+      <div class="meta"> <span class="dim">·</span> </div>
+      <div class="meta mono dim">ad 120242496275200025</div>
+    </td>
+    <td class="num strong">$1.15</td>
+    <td class="num">90</td>
+    <td class="num">8</td>
+    <td class="num">8.89%</td>
+    <td class="num">$0.14</td>
+    <td class="num">$12.78</td>
+    <td class="num">1.08</td>
+    <td class="num">5</td>
+    <td class="num">1</td>
+    <td class="num">0</td>
+    <td class="num strong">0</td>
+    <td class="num">—</td>
+    <td class="num">$0.00</td>
+    <td class="num strong neg">—</td>
+  </tr>
+
+  <tr>
+    <td class="text-left">
+      <div class="ad-name">meta-reel-compilation-G-v5 <span class="badge-pos">ACTIVE</span></div>
+      <div class="meta"> <span class="dim">·</span> </div>
+      <div class="meta mono dim">ad 120241700755610025</div>
+    </td>
+    <td class="num strong">$1.09</td>
+    <td class="num">53</td>
+    <td class="num">2</td>
+    <td class="num">3.77%</td>
+    <td class="num">$0.55</td>
+    <td class="num">$20.57</td>
+    <td class="num">1.20</td>
+    <td class="num">2</td>
+    <td class="num">0</td>
+    <td class="num">0</td>
+    <td class="num strong">0</td>
+    <td class="num">—</td>
+    <td class="num">$0.00</td>
+    <td class="num strong neg">—</td>
+  </tr>
+
+  <tr>
+    <td class="text-left">
+      <div class="ad-name">ad_blackintro_kkt_leadership_v2 <span class="badge-pos">ACTIVE</span></div>
+      <div class="meta"> <span class="dim">·</span> </div>
+      <div class="meta mono dim">ad 120241987717680025</div>
+    </td>
+    <td class="num strong">$0.44</td>
+    <td class="num">34</td>
+    <td class="num">1</td>
+    <td class="num">2.94%</td>
+    <td class="num">$0.44</td>
+    <td class="num">$12.94</td>
+    <td class="num">1.21</td>
+    <td class="num">1</td>
+    <td class="num">1</td>
+    <td class="num">0</td>
+    <td class="num strong">0</td>
+    <td class="num">—</td>
+    <td class="num">$0.00</td>
+    <td class="num strong neg">—</td>
+  </tr>
+
+  <tr>
+    <td class="text-left">
+      <div class="ad-name">ad_blackintro_kkt_nondev_v2 <span class="badge-pos">ACTIVE</span></div>
+      <div class="meta"> <span class="dim">·</span> </div>
+      <div class="meta mono dim">ad 120241987723670025</div>
+    </td>
+    <td class="num strong">$0.34</td>
+    <td class="num">17</td>
+    <td class="num">0</td>
+    <td class="num">0.00%</td>
+    <td class="num">$0.00</td>
+    <td class="num">$20.00</td>
+    <td class="num">1.13</td>
+    <td class="num">0</td>
+    <td class="num">0</td>
+    <td class="num">0</td>
+    <td class="num strong">0</td>
+    <td class="num">—</td>
+    <td class="num">$0.00</td>
+    <td class="num strong neg">—</td>
+  </tr>
+</tbody>
+</table></div>
+
+<footer>Source: official Meta Ads CLI (`meta ads ad list` + `meta ads insights get --ad-id` per ad) · Marketing API v21.0</footer>
+
+<script>
+const labels = ["04-24","04-25","04-26","04-27","04-28","04-29","04-30"];
+const dSpend=[48.78,48.34,47.49,48.26,51.13,54.49,51.94], dPurch=[2,2,0,2,1,0,4], dImp=[6014,6477,6054,5513,5067,5775,4886], dClk=[247,278,248,227,250,285,274], dRev=[337.67,337.19,0,337.19,169.52,0,676.81];
+const baseOpts = {responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#7c8694',font:{size:11}}}},
+scales:{x:{ticks:{color:'#7c8694',font:{size:10}},grid:{color:'#1a1f25'}},
+y:{ticks:{color:'#7c8694',font:{size:10}},grid:{color:'#1a1f25'},beginAtZero:true},
+y1:{position:'right',ticks:{color:'#7c8694',font:{size:10}},grid:{display:false},beginAtZero:true}}};
+new Chart(document.getElementById('c1'),{type:'bar',data:{labels,datasets:[
+  {type:'bar',label:'Spend ($)',data:dSpend,backgroundColor:'#4f8cff',borderRadius:4,yAxisID:'y'},
+  {type:'line',label:'Revenue ($)',data:dRev,borderColor:'#22c55e',backgroundColor:'#22c55e',tension:0.3,yAxisID:'y1',pointRadius:3}
+]},options:baseOpts});
+new Chart(document.getElementById('c2'),{type:'bar',data:{labels,datasets:[
+  {type:'bar',label:'Impressions',data:dImp,backgroundColor:'#4f8cff',borderRadius:4,yAxisID:'y'},
+  {type:'line',label:'Clicks',data:dClk,borderColor:'#f59e0b',backgroundColor:'#f59e0b',tension:0.3,yAxisID:'y1',pointRadius:3},
+  {type:'line',label:'Purchases',data:dPurch,borderColor:'#22c55e',backgroundColor:'#22c55e',tension:0.3,yAxisID:'y1',pointRadius:3}
+]},options:baseOpts});
+</script>
+</body>
+</html>

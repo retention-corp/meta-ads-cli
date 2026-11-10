@@ -1,0 +1,27 @@
+=== weekly_incrementality Fri May  1 11:07:52 KST 2026 ===
+
+[slack:stdout #ads-weekly]
+:bar_chart: *Weekly Incrementality (proxy) — last 30d*
+_disclaimer: this is an attribution-window proxy, NOT a true incremental ROAS. True incrementality requires a Meta Conversion Lift study or geo holdout. See the report's notes section._
+
+
+*✅ True winners (high ROAS + clean attribution):*
+  • get.ship.done-campaign — ROAS 7.46x, ratio 1.0
+
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/incrementality.json — 1 campaigns evaluated
+=== done Fri May  1 11:07:57 KST 2026 ===
+=== weekly_incrementality Fri May  1 11:42:56 KST 2026 ===
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/incrementality.json — 1 campaigns evaluated
+=== done Fri May  1 11:43:03 KST 2026 ===
+=== 주간 Incrementality Fri May  1 11:51:45 KST 2026 ===
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/incrementality.json — 1 campaigns evaluated
+=== 완료 Fri May  1 11:51:51 KST 2026 ===
+=== 주간 Incrementality Fri May  1 12:33:05 KST 2026 ===
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/incrementality.json — 1 campaigns evaluated
+=== 완료 Fri May  1 12:33:10 KST 2026 ===
+=== 주간 Incrementality Fri May  1 13:27:39 KST 2026 ===
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/incrementality.json — 1 campaigns evaluated
+=== 완료 Fri May  1 13:27:44 KST 2026 ===
+=== 주간 Incrementality Fri May  1 13:28:43 KST 2026 ===
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/incrementality.json — 1 campaigns evaluated
+=== 완료 Fri May  1 13:28:48 KST 2026 ===

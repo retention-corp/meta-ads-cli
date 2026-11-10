@@ -1,0 +1,9 @@
+{
+	"_comment": "Canonical config for the Meta Ads remote MCP server. Source: https://www.facebook.com/business/help/1456422242197840 (literal quote: 'The remote MCP server URL for our ads MCP server across all currently supported AI agents is: https://mcp.facebook.com/ads'). Auth is OAuth — first call triggers a Meta login + consent flow in your browser; the AI client stores the bearer token. No API key needed.",
+	"mcpServers": {
+		"meta-ads": {
+			"type": "http",
+			"url": "https://mcp.facebook.com/ads"
+		}
+	}
+}

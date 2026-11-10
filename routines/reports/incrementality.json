@@ -1,0 +1,13 @@
+[
+  {
+    "campaign_id": "120240782421500025",
+    "name": "get.ship.done-campaign",
+    "spend": 1367.46,
+    "revenue_default": 9368.34,
+    "revenue_click_only": 9366.0,
+    "roas_default": 6.85,
+    "roas_click_only": 6.85,
+    "proxy_ratio": 1.0,
+    "label": "true_winner"
+  }
+]

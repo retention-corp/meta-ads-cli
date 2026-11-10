@@ -1,0 +1,7 @@
+{
+  "tool_name": "mcp__plugin_context-mode_context-mode__ctx_execute",
+  "tool_input_preview": "{\"language\":\"python\",\"code\":\"\\nimport sys\\nsys.path.insert(0, '/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/.tools/.venv/lib/python3.13/site-packages')\\n\\nfrom pptx import Presentation\\nfrom ...",
+  "error": "Exit code: 1\n\nstdout:\n\n\nstderr:\nTraceback (most recent call last):\n  File \"/var/folders/n8/qwgxqvd12c741k7nnm7z8q1w0000gn/T/.ctx-mode-wAuDxi/script.py\", line 5, in <module>\n    from pptx import Presentation\n  File \"/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/.tools/.venv/lib/python3.13/site-packages/pptx/__init__.py\", line 9, in <module>\n    from pptx.api import Presentation\n  File \"/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/.tools/.venv/lib/python3.13/site-packages/pptx/api...",
+  "timestamp": "2026-05-01T04:47:40.853Z",
+  "retry_count": 1
+}

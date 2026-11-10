@@ -1,0 +1,441 @@
+{
+  "prefix": "demo_20260501_1151",
+  "vault": {
+    "hooks": [
+      "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg"
+    ],
+    "bodies": 4,
+    "ctas": [
+      "BOOK_TRAVEL",
+      "LEARN_MORE",
+      "SIGN_UP"
+    ]
+  },
+  "combinations": 60,
+  "combos": [
+    {
+      "hash": "2d21dae8",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_2d21dae8"
+    },
+    {
+      "hash": "7e1eb322",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_7e1eb322"
+    },
+    {
+      "hash": "07484db2",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_07484db2"
+    },
+    {
+      "hash": "0564bdc2",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_0564bdc2"
+    },
+    {
+      "hash": "bf70d270",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_bf70d270"
+    },
+    {
+      "hash": "b221549f",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_b221549f"
+    },
+    {
+      "hash": "924c44e1",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_924c44e1"
+    },
+    {
+      "hash": "5819868b",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_5819868b"
+    },
+    {
+      "hash": "bf6a57f1",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_bf6a57f1"
+    },
+    {
+      "hash": "b05fc00b",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_b05fc00b"
+    },
+    {
+      "hash": "b1667132",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_b1667132"
+    },
+    {
+      "hash": "b7673e6e",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_b7673e6e"
+    },
+    {
+      "hash": "d84f06a9",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_d84f06a9"
+    },
+    {
+      "hash": "f368dfd1",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_f368dfd1"
+    },
+    {
+      "hash": "1925da24",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_1925da24"
+    },
+    {
+      "hash": "99176f22",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_99176f22"
+    },
+    {
+      "hash": "59c23cbc",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_59c23cbc"
+    },
+    {
+      "hash": "3c0bd06c",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_3c0bd06c"
+    },
+    {
+      "hash": "19ed4ad3",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_19ed4ad3"
+    },
+    {
+      "hash": "03222eb7",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_03222eb7"
+    },
+    {
+      "hash": "44e7bef6",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_44e7bef6"
+    },
+    {
+      "hash": "e3b6adc9",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_e3b6adc9"
+    },
+    {
+      "hash": "2ee2878f",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_2ee2878f"
+    },
+    {
+      "hash": "9c16c858",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_9c16c858"
+    },
+    {
+      "hash": "effa8262",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_effa8262"
+    },
+    {
+      "hash": "826ea02d",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_826ea02d"
+    },
+    {
+      "hash": "bca388e7",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_bca388e7"
+    },
+    {
+      "hash": "e564e298",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_e564e298"
+    },
+    {
+      "hash": "751cdcc7",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_751cdcc7"
+    },
+    {
+      "hash": "bfb2d309",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_bfb2d309"
+    },
+    {
+      "hash": "42f16f8b",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_42f16f8b"
+    },
+    {
+      "hash": "0acd17ac",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_0acd17ac"
+    },
+    {
+      "hash": "004b0d1a",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_004b0d1a"
+    },
+    {
+      "hash": "946daf58",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_946daf58"
+    },
+    {
+      "hash": "2369f2a6",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_2369f2a6"
+    },
+    {
+      "hash": "a2987c4c",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_a2987c4c"
+    },
+    {
+      "hash": "aafdc356",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_aafdc356"
+    },
+    {
+      "hash": "d52069d4",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_d52069d4"
+    },
+    {
+      "hash": "d2e22cad",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_d2e22cad"
+    },
+    {
+      "hash": "d9e557b4",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_d9e557b4"
+    },
+    {
+      "hash": "48f741e6",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_48f741e6"
+    },
+    {
+      "hash": "e173935f",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_e173935f"
+    },
+    {
+      "hash": "02e51ccd",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_02e51ccd"
+    },
+    {
+      "hash": "de96cbe7",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_de96cbe7"
+    },
+    {
+      "hash": "7f40a858",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_7f40a858"
+    },
+    {
+      "hash": "a0d27909",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_a0d27909"
+    },
+    {
+      "hash": "d519446b",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_d519446b"
+    },
+    {
+      "hash": "884dad42",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_884dad42"
+    },
+    {
+      "hash": "71a1ceca",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_71a1ceca"
+    },
+    {
+      "hash": "1efbbbb7",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_1efbbbb7"
+    },
+    {
+      "hash": "6e3dc723",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!\n\nAcquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.\n\n새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.\n\n(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.\n\n2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_6e3dc723"
+    },
+    {
+      "hash": "fac90a6f",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_fac90a6f"
+    },
+    {
+      "hash": "9acbadc0",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_9acbadc0"
+    },
+    {
+      "hash": "47d6547b",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "마케터, 프로덕, or 스타트업 관련 종사자인가요? Zapier를 들어보시지 않았다면 잠시 제 얘기 좀 들어보세요. 이 광고를 클릭하면 페이스북이 fbclid라는 파라미터를 자동으로 붙여요. 여러분이 웨비나를 예약할 때 해당 파라미터는 Stripe로 넘어가고 이를 Zapier에 넘겨준 뒤 다시 한번 Facebook Conversion API로 넘겨주게 됩니다. 이를 통해 Conversion 측정을 정확하게 할 수 있게 되며 페이스북의 머신러닝을 더 정교하게 만들죠. 이 모든 게 코드 한 줄 못 짜도 가능하답니다. Zapier의 활용은 무궁무진합니다. 뭔 말인지 모르겠다고요? 웨비나를 신청하고 Zapier를 배워보세요! 레코딩 버전을 제공하여 웨비나 이후에도 학습하실 수 있습니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_47d6547b"
+    },
+    {
+      "hash": "632b2e40",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_632b2e40"
+    },
+    {
+      "hash": "b8517dcb",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_b8517dcb"
+    },
+    {
+      "hash": "2ac6d5f2",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "이미 국내외 대표하는 스타트업 마케터분들 및 유명 브랜드 마케터분, 에이젼시분들이 선택한 ZAPIER WEBINAR!\n\n50% OFF로 진행 중인 EARLY BIRD 티켓(29USD) 진짜 12장 밖에 안남았습니다 !오늘 밤이 지나면 49 USD로 가격이 오릅니다 !\n\n기회를 놓치지 마세요 ! 😀 😃 😂\n\nREGISTER RIGHT NOW 👇👇👇\nhttps://haseok.penpaperandplot.com/zapier-webinar",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_2ac6d5f2"
+    },
+    {
+      "hash": "83af65d8",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1151_83af65d8"
+    },
+    {
+      "hash": "9c5182a9",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1151_9c5182a9"
+    },
+    {
+      "hash": "92b7d365",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "적어도 마케터에겐 연차란 크게 중요하지 않다고 생각한다. 얼마나 많은 프로젝트를 참여, 경험 해 봤으며 이를 통해 얼마나 배웠고 새로운 문제를 해결하는 능력이 가장 중요하다고 생각한다. 연차보다 더 빠르게 성장하기 위해선 하루에 정해진 일과 시간 외에 일/공부를 하거나 일과 시간에 얼마나 manual work 을 줄이고 내 스킬을 늘릴 수 있는 업무를 더 할 수 있는가에 달렸다. (이 두 개를 다 하는 사람도 많다)",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1151_92b7d365"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Crontab entries for the 4 routines. Install with:
+#   crontab -l > /tmp/cron-current && cat crontab.txt >> /tmp/cron-current && crontab /tmp/cron-current
+# Or copy/paste manually via `crontab -e`.
+
+# 매일 오전 8시 — 시그널 헬스 체크
+0 8 * * * /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/scripts/morning_signal.sh
+
+# 매일 자정 — 광고별 fatigue 진단 + HITL 액션 메뉴
+0 0 * * * /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/scripts/fatigue_check.sh
+
+# 매주 월요일 오전 9시 — incrementality proxy 추적
+0 9 * * 1 /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/scripts/weekly_incrementality.sh
+
+# 매주 월요일 오전 10시 — creative test 매트릭스 (dry-run)
+# 실제 광고 생성하려면 EXECUTE=1 + CREATIVE_TEST_ADSET_ID 환경변수와 함께 수동 실행
+0 10 * * 1 /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/scripts/creative_test_batch.sh

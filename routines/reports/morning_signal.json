@@ -1,0 +1,23 @@
+[
+  {
+    "code": "audience_age_leakage",
+    "severity": "ok",
+    "message": "18-24세 spend 비중 4.4% 정상 범위 (baseline 3.9%).",
+    "metric": 0.0443,
+    "expected": "<= 0.0785"
+  },
+  {
+    "code": "placement_granularity",
+    "severity": "ok",
+    "message": "분포 정상 — 인스타 89%, FB 10%, AN 0%, Threads 0%",
+    "metric": 0.8919,
+    "expected": "인스타 85~96%"
+  },
+  {
+    "code": "daily_spend_anomaly",
+    "severity": "ok",
+    "message": "어제 spend $61.14 (z=+1.30σ) 정상 범위 $4.85~$78.99.",
+    "metric": 61.14,
+    "expected": "4.85 ~ 78.99"
+  }
+]

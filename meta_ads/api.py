@@ -53,6 +53,15 @@ class MetaAdsAPI:
             try:
                 error_data = resp.json().get("error", {})
                 message = error_data.get("message", resp.text)
+                # Surface Meta's human-readable details — the generic
+                # "Invalid parameter" alone is undebuggable.
+                user_title = error_data.get("error_user_title")
+                user_msg = error_data.get("error_user_msg")
+                subcode = error_data.get("error_subcode")
+                if user_title or user_msg:
+                    message = f"{message} | {user_title or ''}: {user_msg or ''}"
+                if subcode:
+                    message = f"{message} (subcode {subcode})"
                 error_code = error_data.get("code")
             except Exception:
                 message = resp.text
@@ -95,17 +104,28 @@ class MetaAdsAPI:
         return result.get("id", "dry_run_id")
 
     def create_ad_set(self, name, campaign_id, daily_budget, targeting, optimization_goal="LINK_CLICKS",
-                      billing_event="IMPRESSIONS", bid_strategy="LOWEST_COST_WITHOUT_CAP", status="PAUSED"):
+                      billing_event="IMPRESSIONS", bid_strategy="LOWEST_COST_WITHOUT_CAP", status="PAUSED",
+                      promoted_object=None):
         """Create an ad set with targeting. Returns the ad set ID."""
         # Build targeting spec from config
         targeting_spec = {
             "age_min": targeting.get("age_min", 18),
             "age_max": targeting.get("age_max", 65),
-            "genders": targeting.get("genders", [0]),
             "geo_locations": {
                 "countries": targeting.get("countries", ["US"]),
             },
+            # Required by Meta API since 2025/2026: explicitly enable or disable
+            # Advantage audience (subcode 1870227 without it). Default ON per
+            # current best practice; set advantage_audience: 0 in YAML to opt out.
+            "targeting_automation": {
+                "advantage_audience": int(targeting.get("advantage_audience", 1)),
+            },
         }
+
+        # Meta expects genders [1] (male) or [2] (female); omit for all genders.
+        genders = targeting.get("genders")
+        if genders and genders != [0]:
+            targeting_spec["genders"] = genders
 
         if targeting.get("interests"):
             targeting_spec["flexible_spec"] = [
@@ -124,19 +144,25 @@ class MetaAdsAPI:
                 "instagram_positions", ["stream", "story", "reels"]
             )
 
+        params = {
+            "name": name,
+            "campaign_id": campaign_id,
+            "daily_budget": str(daily_budget),
+            "billing_event": billing_event,
+            "optimization_goal": optimization_goal,
+            "bid_strategy": bid_strategy,
+            "status": status,
+            "targeting": json.dumps(targeting_spec),
+        }
+        # Conversion-optimized ad sets (e.g. OFFSITE_CONVERSIONS) require a
+        # promoted_object such as {"pixel_id": ..., "custom_event_type": "PURCHASE"}.
+        if promoted_object:
+            params["promoted_object"] = json.dumps(promoted_object)
+
         result = self._request(
             "POST",
             f"{self.act_id}/adsets",
-            params={
-                "name": name,
-                "campaign_id": campaign_id,
-                "daily_budget": str(daily_budget),
-                "billing_event": billing_event,
-                "optimization_goal": optimization_goal,
-                "bid_strategy": bid_strategy,
-                "status": status,
-                "targeting": json.dumps(targeting_spec),
-            },
+            params=params,
         )
         return result.get("id", "dry_run_id")
 

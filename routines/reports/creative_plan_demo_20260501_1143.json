@@ -1,0 +1,336 @@
+{
+  "prefix": "demo_20260501_1143",
+  "vault": {
+    "hooks": [
+      "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg"
+    ],
+    "bodies": 3,
+    "ctas": [
+      "BOOK_TRAVEL",
+      "LEARN_MORE",
+      "SIGN_UP"
+    ]
+  },
+  "combinations": 45,
+  "combos": [
+    {
+      "hash": "1afc4918",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_1afc4918"
+    },
+    {
+      "hash": "d3c69708",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_d3c69708"
+    },
+    {
+      "hash": "8127c8d6",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_8127c8d6"
+    },
+    {
+      "hash": "b48fd118",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_b48fd118"
+    },
+    {
+      "hash": "b8de003a",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_b8de003a"
+    },
+    {
+      "hash": "cbdeb477",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_cbdeb477"
+    },
+    {
+      "hash": "526412dc",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_526412dc"
+    },
+    {
+      "hash": "b292294e",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_b292294e"
+    },
+    {
+      "hash": "a7cba9fe",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_leadership_v2_87d0effb.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_a7cba9fe"
+    },
+    {
+      "hash": "d9d781de",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_d9d781de"
+    },
+    {
+      "hash": "2b2c19ec",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_2b2c19ec"
+    },
+    {
+      "hash": "4075d845",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_4075d845"
+    },
+    {
+      "hash": "6ed7404b",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_6ed7404b"
+    },
+    {
+      "hash": "cc6849dd",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_cc6849dd"
+    },
+    {
+      "hash": "7c3c2d05",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_7c3c2d05"
+    },
+    {
+      "hash": "10cf0036",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_10cf0036"
+    },
+    {
+      "hash": "c2be887e",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_c2be887e"
+    },
+    {
+      "hash": "8d977c20",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_blackintro_kkt_nondev_v2_87d0effb.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_8d977c20"
+    },
+    {
+      "hash": "70c9762f",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_70c9762f"
+    },
+    {
+      "hash": "8e9f6cb2",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_8e9f6cb2"
+    },
+    {
+      "hash": "86fddc32",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_86fddc32"
+    },
+    {
+      "hash": "fe795a8b",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_fe795a8b"
+    },
+    {
+      "hash": "63e8f473",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_63e8f473"
+    },
+    {
+      "hash": "ffa47e12",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_ffa47e12"
+    },
+    {
+      "hash": "5022c8ab",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_5022c8ab"
+    },
+    {
+      "hash": "c9aada76",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_c9aada76"
+    },
+    {
+      "hash": "5fd1bfe9",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/ad_postit_winner_260427_4a96fdaa.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_5fd1bfe9"
+    },
+    {
+      "hash": "6bd0eb99",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_6bd0eb99"
+    },
+    {
+      "hash": "c2dafcfe",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_c2dafcfe"
+    },
+    {
+      "hash": "c8233219",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_c8233219"
+    },
+    {
+      "hash": "6c3b4a9a",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_6c3b4a9a"
+    },
+    {
+      "hash": "13abef24",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_13abef24"
+    },
+    {
+      "hash": "d36f403e",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_d36f403e"
+    },
+    {
+      "hash": "056ed50a",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_056ed50a"
+    },
+    {
+      "hash": "0ac6c731",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_0ac6c731"
+    },
+    {
+      "hash": "502f97a2",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/jinny-capcut_male50s-260420_13e72ee0.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_502f97a2"
+    },
+    {
+      "hash": "db7c29ea",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_db7c29ea"
+    },
+    {
+      "hash": "850391fa",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_850391fa"
+    },
+    {
+      "hash": "710acd8e",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "AI 시대 리더십, 더 이상 미루지 마세요.\n실무자에서 의사결정자로 — 4주 안에 단단해집니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_710acd8e"
+    },
+    {
+      "hash": "4067ecdc",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_4067ecdc"
+    },
+    {
+      "hash": "64687929",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_64687929"
+    },
+    {
+      "hash": "114689be",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "이번 기수 마감 임박.\nAI를 도구가 아니라 전략으로 쓰는 리더들이 모입니다.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_114689be"
+    },
+    {
+      "hash": "16a30233",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "BOOK_TRAVEL",
+      "name": "demo_20260501_1143_16a30233"
+    },
+    {
+      "hash": "c033a044",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "LEARN_MORE",
+      "name": "demo_20260501_1143_c033a044"
+    },
+    {
+      "hash": "5b8a83bb",
+      "hook_path": "/Users/gyusupsim/Projects/tools/meta-ads-cli/routines/vault/hooks/meta-reel-compilation-g-v5_87d0effb.jpg",
+      "body_text": "이미 토스, 쿠팡, 카카오 출신 리더들이 선택한 코스.\n지금 합류하면 다음 기수 우선 배정.",
+      "cta": "SIGN_UP",
+      "name": "demo_20260501_1143_5b8a83bb"
+    }
+  ]
+}

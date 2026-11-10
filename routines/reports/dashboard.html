@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko"><head>
+<meta charset="utf-8">
+<title>Routines Dashboard — Growth Practitioner</title>
+<style>
+:root{--bg:#0b0d10;--panel:#14181d;--border:#222831;--text:#e6e9ef;--muted:#7c8694;--dim:#5a6472}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,sans-serif;padding:24px}
+h1{font-size:22px;font-weight:600;margin-bottom:6px;letter-spacing:-.01em}
+h2{font-size:14px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:24px 0 10px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:24px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:14px 16px;position:relative}
+.card .dot{position:absolute;top:14px;right:14px;width:10px;height:10px;border-radius:50%}
+.kicker{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.msg{font-size:13px;line-height:1.45}
+.meta{color:var(--dim);font-size:11px;margin-top:8px;font-family:"SF Mono",Menlo,monospace}
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:20px}
+th{background:#0f1318;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em;font-weight:600;padding:12px 10px;text-align:left;border-bottom:1px solid var(--border)}
+td{padding:12px 10px;border-bottom:1px solid var(--border);font-size:13px;vertical-align:top}
+tr:last-child td{border-bottom:none}
+.pill{display:inline-block;padding:1px 7px;border-radius:3px;font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:#0b0d10;font-weight:700;margin-right:6px}
+.dim{color:var(--dim);font-size:11px}
+code{font-family:"SF Mono",Menlo,monospace;font-size:11px;color:var(--muted)}
+pre{background:#0f1318;border:1px solid var(--border);border-radius:6px;padding:8px 10px;font-size:11px;color:#cbd5e1;white-space:pre-wrap;margin-top:6px}
+.opts{list-style:none;padding-left:0}
+.opts li{margin-bottom:8px}
+.note{background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.3);color:#f59e0b;padding:10px 14px;border-radius:8px;font-size:12px;margin-bottom:20px}
+</style></head><body>
+<h1>Routines 대시보드 — Growth Practitioner</h1>
+<div class="sub">baseline 2026-04-01 → 2026-04-30 · 30일 · 30일 ROAS 7.46배</div>
+
+<h2>루틴 1 — 아침 시그널 헬스 체크</h2>
+<div class="cards"><div class='card'><div class='dot' style='background:#22c55e'></div><div class='kicker'>audience_age_leakage</div><div class='msg'>18-24세 spend 비중 3.5% 정상 범위 (baseline 3.9%).</div><div class='meta'>metric=0.035 · expected &lt;= 0.0785</div></div><div class='card'><div class='dot' style='background:#22c55e'></div><div class='kicker'>placement_concentration</div><div class='msg'>Instagram spend 비중 90.7% 정상 범위 (87-99%).</div><div class='meta'>metric=0.907 · expected 0.8705 ~ 0.9900</div></div><div class='card'><div class='dot' style='background:#22c55e'></div><div class='kicker'>daily_spend_anomaly</div><div class='msg'>어제 spend $51.95 (z=+0.68σ) 정상 범위 $4.85~$78.99.</div><div class='meta'>metric=51.95 · expected 4.85 ~ 78.99</div></div></div>
+
+<h2>루틴 2 — 광고별 Fatigue 스캔 + HITL 액션 메뉴</h2>
+<table><thead><tr><th>광고</th><th>7d Spend</th><th>Freq</th><th>CTR</th><th>CPM</th><th>추천 액션</th></tr></thead>
+<tbody><tr><td><span class='pill' style='background:#f59e0b'>warn</span> <b>meta-reel-compilation-G-v5</b><br><code>120241700755610025</code></td><td>$1.09</td><td>1.14</td><td>0.0% → 0.0%<br><span class='dim'>×1.0</span></td><td>$35.0 → $17.5<br><span class='dim'>×0.5</span></td><td><ul class='opts'><li><b>A. 광고 일시정지 (오디언스 saturate)</b><pre>meta ads ad update 120241700755610025 --status PAUSED</pre></li><li><b>Skip — false positive 판단 시 오늘 건너뛰기</b></li></ul></td></tr><tr><td><span class='pill' style='background:#22c55e'>healthy</span> <b>jinny-capcut_male50s-260420</b><br><code>120242496275200025</code></td><td>$1.15</td><td>1.04</td><td>12.5% → 12.5%<br><span class='dim'>×1.0</span></td><td>$8.75 → $12.08<br><span class='dim'>×1.38</span></td><td><ul class='opts'><li class=dim>healthy — no action</li></ul></td></tr><tr><td><span class='pill' style='background:#22c55e'>healthy</span> <b>ad_postit_winner_260427</b><br><code>120242939578390025</code></td><td>$110.36</td><td>1.07</td><td>5.24% → 5.33%<br><span class='dim'>×1.02</span></td><td>$9.74 → $10.52<br><span class='dim'>×1.08</span></td><td><ul class='opts'><li class=dim>healthy — no action</li></ul></td></tr><tr><td><span class='pill' style='background:#22c55e'>healthy</span> <b>New Sales Ad</b><br><code>120240782421510025</code></td><td>$73.37</td><td>1.05</td><td>6.52% → 6.95%<br><span class='dim'>×1.07</span></td><td>$10.1 → $11.24<br><span class='dim'>×1.11</span></td><td><ul class='opts'><li class=dim>healthy — no action</li></ul></td></tr></tbody></table>
+
+<h2>루틴 3 — 주간 Incrementality (proxy)</h2>
+<div class="note">⚠️ Attribution-window proxy. 진짜 incrementality는 Meta Conversion Lift study 또는 geo holdout 필요. "proxy" 컬럼은 view-through 의존성 높은 placement(Audience Network)를 할인하여 click-only ROAS를 근사함.</div>
+<table><thead><tr><th>캠페인</th><th>Spend</th><th>매출 (reported / proxy)</th><th>ROAS (reported / proxy)</th><th>Ratio</th><th>라벨</th></tr></thead>
+<tbody><tr><td><b>get.ship.done-campaign</b><br><code>120240782421500025</code></td><td>$1257.56</td><td>$9382.44<br>$9381.32 <span class='dim'>(proxy)</span></td><td>7.46x<br>7.46x <span class='dim'>(proxy)</span></td><td>1.0</td><td>✅ True winner</td></tr></tbody></table>
+
+</body></html>

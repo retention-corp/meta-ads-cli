@@ -1,0 +1,55 @@
+{
+  "account_id": "act_250561826369987",
+  "account_name": "Growth Practitioner",
+  "computed_at": "2026-05-01T02:01:09.735Z",
+  "window_days": 30,
+  "window_start": "2026-04-01",
+  "window_end": "2026-04-30",
+  "totals": {
+    "spend": 1257.55,
+    "impressions": 139449,
+    "clicks": 6551,
+    "ctr_mean": 4.602,
+    "purchases": 68,
+    "revenue": 9382.44,
+    "roas": 7.46
+  },
+  "daily": {
+    "mean_spend": 41.92,
+    "std_spend": 14.83,
+    "spend_z3_floor": -2.57,
+    "spend_z3_ceil": 86.4
+  },
+  "age_share": {
+    "18-24": 0.0393,
+    "25-34": 0.3507,
+    "35-44": 0.3919,
+    "45-54": 0.1871,
+    "55-64": 0.0272,
+    "65+": 0.0038,
+    "Unknown": 0
+  },
+  "platform_share": {
+    "audience_network": 0.0002,
+    "facebook": 0.0585,
+    "instagram": 0.9361,
+    "threads": 0.0053
+  },
+  "thresholds": {
+    "young_age_share_alert": 0.0785,
+    "young_age_share_baseline": 0.0393,
+    "instagram_share_floor": 0.8705,
+    "instagram_share_ceil": 0.99,
+    "daily_spend_anomaly_low": 4.85,
+    "daily_spend_anomaly_high": 78.99,
+    "fatigue_frequency_warn": 2,
+    "fatigue_frequency_critical": 2.5,
+    "fatigue_ctr_decay_warn": 0.85,
+    "fatigue_ctr_decay_critical": 0.75,
+    "fatigue_cpm_inflation_warn": 1.2,
+    "fatigue_cpm_inflation_critical": 1.4,
+    "fatigue_reach_growth_floor": 0.05,
+    "roas_floor_pause_candidate": 1,
+    "roas_winner": 3
+  }
+}

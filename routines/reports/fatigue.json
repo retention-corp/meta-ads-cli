@@ -1,0 +1,104 @@
+[
+  {
+    "ad_id": "120242496275200025",
+    "ad_name": "jinny-capcut_male50s-260420",
+    "status": "ACTIVE",
+    "score": 4,
+    "severity": "critical",
+    "signals": {
+      "frequency_critical": false,
+      "frequency_warn": false,
+      "ctr_decay_critical": true,
+      "ctr_decay_warn": false,
+      "cpm_inflation_critical": false,
+      "cpm_inflation_warn": false,
+      "reach_saturation": true
+    },
+    "metrics": {
+      "spend_7d": 2.28,
+      "frequency": 1.02,
+      "ctr_first": 10.0,
+      "ctr_last": 2.27,
+      "ctr_decay_ratio": 0.23,
+      "cpm_first": 12.5,
+      "cpm_last": 9.77,
+      "cpm_inflation_ratio": 0.78,
+      "reach_growth_per_day": 0.0205
+    },
+    "suggestions": [
+      {
+        "label": "A. 광고 일시정지 (오디언스 saturate)",
+        "rationale": "frequency 1.02 ≥ 2.5 또는 reach 성장 정체",
+        "command": "meta ads ad update 120242496275200025 --status PAUSED",
+        "risk": "low"
+      },
+      {
+        "label": "B. 일시정지 + vault 차기 크리에이티브 promote",
+        "rationale": "CTR이 7일 시작 대비 23%로 감소",
+        "command": "meta ads ad update 120242496275200025 --status PAUSED && bash routines/scripts/promote_next_creative.sh 120240782421490025",
+        "risk": "medium"
+      },
+      {
+        "label": "Skip — false positive 판단 시 오늘 건너뛰기",
+        "command": "# noop",
+        "risk": "none"
+      }
+    ]
+  },
+  {
+    "ad_id": "120242939578390025",
+    "ad_name": "ad_postit_winner_260427",
+    "status": "ACTIVE",
+    "score": 1,
+    "severity": "healthy",
+    "signals": {
+      "frequency_critical": false,
+      "frequency_warn": false,
+      "ctr_decay_critical": false,
+      "ctr_decay_warn": true,
+      "cpm_inflation_critical": false,
+      "cpm_inflation_warn": false,
+      "reach_saturation": false
+    },
+    "metrics": {
+      "spend_7d": 240.3,
+      "frequency": 1.06,
+      "ctr_first": 5.24,
+      "ctr_last": 4.01,
+      "ctr_decay_ratio": 0.76,
+      "cpm_first": 9.74,
+      "cpm_last": 8.36,
+      "cpm_inflation_ratio": 0.86,
+      "reach_growth_per_day": 0.2196
+    },
+    "suggestions": []
+  },
+  {
+    "ad_id": "120240782421510025",
+    "ad_name": "New Sales Ad",
+    "status": "ACTIVE",
+    "score": 1,
+    "severity": "healthy",
+    "signals": {
+      "frequency_critical": false,
+      "frequency_warn": false,
+      "ctr_decay_critical": false,
+      "ctr_decay_warn": true,
+      "cpm_inflation_critical": false,
+      "cpm_inflation_warn": false,
+      "reach_saturation": false
+    },
+    "metrics": {
+      "spend_7d": 103.93,
+      "frequency": 1.05,
+      "ctr_first": 6.0,
+      "ctr_last": 4.95,
+      "ctr_decay_ratio": 0.83,
+      "cpm_first": 11.34,
+      "cpm_last": 8.62,
+      "cpm_inflation_ratio": 0.76,
+      "reach_growth_per_day": 0.1042
+    },
+    "suggestions": []
+  }
+]

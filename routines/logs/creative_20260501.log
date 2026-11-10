@@ -1,0 +1,18 @@
+=== creative_test_batch Fri May  1 11:07:57 KST 2026 prefix=week18 ===
+plan written → /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/creative_plan_week18.json (8 combinations)
+
+[slack:stdout #creative-review]
+:art: *Creative test batch — week18*
+vault: 2 hooks × 2 bodies × 2 CTAs = 8 combinations
+_dry-run — no ads created. Pass --execute to actually create (all PAUSED)._
+
+=== done Fri May  1 11:07:57 KST 2026 ===
+=== creative_test_batch Fri May  1 11:43:03 KST 2026 prefix=demo_20260501_1143 ===
+plan written → /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/creative_plan_demo_20260501_1143.json (45 combinations)
+=== done Fri May  1 11:43:04 KST 2026 ===
+=== 크리에이티브 테스트 배치 Fri May  1 11:51:51 KST 2026 prefix=demo_20260501_1151 ===
+plan written → /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/creative_plan_demo_20260501_1151.json (60 combinations)
+=== 완료 Fri May  1 11:51:51 KST 2026 ===
+=== 크리에이티브 테스트 배치 Fri May  1 12:33:11 KST 2026 prefix=demo_20260501_1233 ===
+plan written → /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/creative_plan_demo_20260501_1233.json (36 combinations)
+=== 완료 Fri May  1 12:33:11 KST 2026 ===

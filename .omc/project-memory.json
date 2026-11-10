@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777595338008,
+  "projectRoot": "/Users/gyusupsim/Projects/tools/meta-ads-cli",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": "pytest",
+    "lintCommand": "ruff check",
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "examples"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "examples": {
+      "path": "examples",
+      "purpose": "Example code",
+      "fileCount": 2,
+      "lastAccessed": 1777595337990,
+      "keyFiles": [
+        "app-install.yaml",
+        "ecommerce.yaml"
+      ]
+    },
+    "meta_ads": {
+      "path": "meta_ads",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1777595337991,
+      "keyFiles": [
+        "__init__.py",
+        "api.py",
+        "campaign.py",
+        "cli.py",
+        "config.py"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}

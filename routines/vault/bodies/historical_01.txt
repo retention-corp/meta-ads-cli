@@ -1,0 +1,9 @@
+[등록 마감 임박] 웨비나에서만 공개하는 Zapier 팁 스포일러를 더 읽어보세요!
+
+Acquisition 팀에서 landing page optimization 을 하고 싶은데 어떤 경우에는 CRM (Push notification, in-app message, SMS, and email) 과의 연결이 끊긴다. 이럴 경우 engineering resource 가 들어가게 됐는데, Unbounce 로 lead 를 수집하고 해당 리드를 Zapier 를 통해서 CRM 에 데이터를 넣어줄 수 있었다.
+
+새로운 business line 이 생기면서 events planning 이 사전에 안 돼 있는 경우를 발견했는데, 해당 events 는 이미 Google Cloud 의 analytics DB 에는 적재 되고 있었다. BigQuery 를 사용해 딱 필요한 데이터만 Google Sheets 로 옮긴 뒤 이를 Zapier 를 통해 CRM 에 적재하여 2~4주를 아낄 수 있었다.
+
+(여기서부터 광고)최근 가장 많이 시간을 쏟는 툴 중 하나인 Zapier 의 무궁무진한 용도를 국내 마케터, PO, PM (Project/Product manager 둘 다 포함) 에게 널리 퍼뜨리고자 국내 유일의 Zapier Certified Expert 이신 이하석님과 Webinar 를 준비했다.
+
+2020년 10월 15일 목요일 오후 8시에 Zoom 으로 2시간 (Q&A 가 많으면 더 길어질 수 있음) 라이브 웨비나 형태로 진행되지만, recording version 을 제공 예정이므로 선약이 있는 분들도 예약이 가능하다.

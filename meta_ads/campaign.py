@@ -57,6 +57,7 @@ def create_full_campaign(api, config):
         billing_event=ad_set_cfg.get("billing_event", "IMPRESSIONS"),
         bid_strategy=ad_set_cfg.get("bid_strategy", "LOWEST_COST_WITHOUT_CAP"),
         status=status,
+        promoted_object=ad_set_cfg.get("promoted_object"),
     )
     result["ad_set_id"] = ad_set_id
     click.echo(click.style(f"  Ad Set ID: {ad_set_id}", fg="green"))

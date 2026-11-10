@@ -1,0 +1,22 @@
+=== fatigue_check Fri May  1 11:07:38 KST 2026 ===
+
+[slack:stdout #ads-fatigue-alerts]
+:rotating_light: *Fatigue Alert — 1 ad(s) need review*
+
+• *meta-reel-compilation-G-v5* (WARN) — freq 1.14, CTR 0.0%→0.0%, CPM $35.0→$17.5
+    - A. Pause this ad (audience saturated)
+      `meta ads ad update 120241700755610025 --status PAUSED`
+    - Skip — false positive, ignore today
+
+
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/fatigue.json — 4 ads scored, 1 need review
+=== done Fri May  1 11:07:43 KST 2026 ===
+=== fatigue_check Fri May  1 11:42:51 KST 2026 ===
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/fatigue.json — 4 ads scored, 1 need review
+=== done Fri May  1 11:42:56 KST 2026 ===
+=== Fatigue 스캔 Fri May  1 11:51:40 KST 2026 ===
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/fatigue.json — 4 ads scored, 1 need review
+=== 완료 Fri May  1 11:51:45 KST 2026 ===
+=== Fatigue 스캔 Fri May  1 12:33:00 KST 2026 ===
+wrote /Users/gyusupsim/Projects/tools/meta-ads-cli/routines/reports/fatigue.json — 4 ads scored, 1 need review
+=== 완료 Fri May  1 12:33:05 KST 2026 ===

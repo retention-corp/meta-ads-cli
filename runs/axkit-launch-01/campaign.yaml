@@ -1,0 +1,80 @@
+# axkit-launch-01 — 에이전트 오퍼레이션 킷 런칭 테스트
+# 생성: Aside agent 2026-08-20. 심슨 승인 전까지 PAUSED 유지.
+
+campaign:
+  name: "axkit-launch-01"
+  objective: OUTCOME_SALES
+  status: PAUSED
+  special_ad_categories: []
+
+ad_set:
+  name: "KR broad 25+ | purchase"
+  daily_budget: 20000              # KRW 20,000/day (KRW = zero-decimal currency)
+  billing_event: IMPRESSIONS
+  optimization_goal: OFFSITE_CONVERSIONS
+  bid_strategy: LOWEST_COST_WITHOUT_CAP
+  promoted_object:
+    pixel_id: "1052663907930864"   # ai.retn.kr pixel (live, fired daily)
+    custom_event_type: PURCHASE
+  targeting:
+    age_min: 25
+    age_max: 65  # Advantage+ audience requires max >= 65
+    genders: [0]
+    countries: ["KR"]
+    platforms: ["facebook", "instagram"]
+    facebook_positions: ["feed"]
+    instagram_positions: ["stream", "reels"]
+
+ads:
+  - name: "proof-a | 1300만원 컨설팅"
+    image: ./images/creative-a.png
+    primary_text: |
+      1,300만 원짜리 CRM 자동화 컨설팅. 설계, 코드, 배포, 운영 문서까지 실무는 AI 에이전트가 했습니다.
+
+      상품 98,518개를 매일 새벽 사람 손 없이 동기화하는 파이프라인이 그 결과물입니다.
+
+      그 운영 구조를 킷으로 정리했습니다.
+      · 실사례 3편 해부 — 한국어 플레이북 32p
+      · 에이전트에 설치하는 메타 광고 스킬 10개
+      · AGENT-INSTALL — 설치부터 첫 진단까지 에이전트가 자동으로
+
+      읽는 책이 아니라, 당신의 에이전트에 설치하는 시스템입니다.
+    headline: "에이전트 오퍼레이션 킷"
+    description: "실사례 3편 + 스킬 10개 + 자동 설치"
+    cta: LEARN_MORE
+    link: "https://buildersclub.co.kr/ax-kit/?utm_source=meta&utm_medium=paid&utm_campaign=axkit-launch-01&utm_content=proof-a"
+
+  - name: "ops-b | 783명 운영인력 0명"
+    image: ./images/creative-b.png
+    primary_text: |
+      부트캠프 누적 참가자 783명. 운영 전담 인력 0명.
+
+      문의 응대, 환불, 알림톡, 세금계산서, 리워드 지급 — 전부 AI 에이전트가 처리합니다. 채용 대신 정책 문서를 썼기 때문입니다.
+
+      그 정책 설계법과 실제 시스템 3개를 해부한 킷.
+      · 한국어 플레이북 32p (실패담 포함)
+      · 메타 광고 스킬 10개 + 체크리스트 4종
+      · meta-ads CLI + 프롬프트 템플릿
+
+      수익 보장은 없습니다. 파는 것은 검증된 운영 구조입니다.
+    headline: "운영 인력 0명의 운영 구조"
+    description: "에이전트 오퍼레이션 킷"
+    cta: LEARN_MORE
+    link: "https://buildersclub.co.kr/ax-kit/?utm_source=meta&utm_medium=paid&utm_campaign=axkit-launch-01&utm_content=ops-b"
+
+  - name: "antijunk-c | 정보말고 시스템"
+    image: ./images/creative-c.png
+    primary_text: |
+      인스타에 도는 "AI 꿀팁"은 저장만 쌓입니다. 실행은 파일이 합니다.
+
+      이 킷은 실제로 돌아간 시스템의 소스입니다.
+      · 1,300만 원 컨설팅 파이프라인 해부
+      · 누적 783명 부트캠프 운영 자동화
+      · 에이전트에 그대로 설치하는 스킬 14개
+      · AGENT-INSTALL 한 줄이면 설치·진단까지 자동
+
+      정보 말고, 시스템을 사세요.
+    headline: "정보 말고, 시스템"
+    description: "에이전트 오퍼레이션 킷 · 49,000원부터"
+    cta: LEARN_MORE
+    link: "https://buildersclub.co.kr/ax-kit/?utm_source=meta&utm_medium=paid&utm_campaign=axkit-launch-01&utm_content=antijunk-c"

@@ -1,0 +1,37 @@
+{
+  "account": {
+    "id": "act_250561826369987",
+    "name": "Growth Practitioner",
+    "account_status": 1,
+    "currency": "USD",
+    "amount_spent": "1507052",
+    "balance": "18775",
+    "spend_cap": "0",
+    "funding_source_details": {
+      "id": "3342842595830344",
+      "display_string": "VISA *8109",
+      "type": 1
+    },
+    "timezone_name": "Asia/Seoul"
+  },
+  "activity_coverage": {
+    "requested_since": "2024-11-01",
+    "requested_until": "2026-08-11",
+    "rows": 1295,
+    "charges": 117,
+    "fundings": 11,
+    "earliest_returned_event": "2025-04-16T09:12:23+0000"
+  },
+  "totals": {
+    "charges": 15070.65,
+    "fundings": 9880.0,
+    "monthly_insights": 15070.52,
+    "lifetime_insights": 15070.52
+  },
+  "files": [
+    "/Users/gyusupsim/Projects/tools/meta-ads/routines/reports/meta_ads_tax_reconciliation_20260811.md",
+    "/Users/gyusupsim/Projects/tools/meta-ads/routines/reports/meta_ads_billing_events_20260811.csv",
+    "/Users/gyusupsim/Projects/tools/meta-ads/routines/reports/meta_ads_monthly_spend_20260811.csv",
+    "/Users/gyusupsim/Projects/tools/meta-ads/routines/reports/meta_ads_campaign_spend_20260811.csv"
+  ]
+}
